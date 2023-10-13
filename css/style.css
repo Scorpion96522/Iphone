@@ -1,0 +1,35 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item__iphone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
+}
+
+.box {
+    position: relative;
+    width: 300px;
+    height: 600px;
+    background: #666;
+    border-radius: 50px;
+}
+
+.box::before {
+    content: '';
+    position: absolute;
+    inset: 3px;
+    background: #000;
+    border-radius: 48px;
+}
+
+.inner {
+    position: absolute;
+    inset: 3px;
+    background: url(C:\Users\POLICE\Desktop2);
+}
